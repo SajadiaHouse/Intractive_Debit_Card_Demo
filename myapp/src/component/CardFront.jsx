@@ -1,8 +1,9 @@
 import React from 'react'
 
 const CardFront = ({cardNo, hName,  month, year}) => {
-    const defaultCardNo = '0999 8888 7777 6666';
+    const defaultCardNo = '0123 4567 8912 0000';
     const defaultName="JHON ALIYA"
+    
     return (
         <>
             <div className='absolute w-[300px] top-[120px] left-6 z-50 md:left-[120px] md:top-14 md:w-[400px] '>

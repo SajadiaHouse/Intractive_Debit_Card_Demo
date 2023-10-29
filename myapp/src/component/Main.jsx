@@ -12,7 +12,7 @@ function Main() {
     <>
         <div className='flex flex-col md:flex-row'>
             <div className="flex-1"><Left cardNo={cardNo} month={month} year={year} cvc={cvc} hName={hName}  /></div>
-            <div className="flex-1"><Right  setcardNo={setcardNo} setmonth={setmonth} setyear={setyear} setcvc={setcvc} sethName={sethName}  /></div>
+            <div className="flex-1"><Right  setcardNo={setcardNo} setmonth={setmonth} setyear={setyear} setcvc={setcvc} sethName={sethName} cardNo={cardNo}  /></div>
         </div>
     </>
   )
